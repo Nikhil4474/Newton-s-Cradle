@@ -150,6 +150,6 @@ function draw() {
 
 function keyPressed(){
   if(keyCode === 32){
-    Body.applyForce(ball,{x:0,y:0},{x:0.-1,y:0})
+    Body.applyForce(ball,{x:0,y:0},{x:0.-0.10,y:0})
   }
 }
